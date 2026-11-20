@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>成人百科 · 仅限成人 | 短剧·动漫·漫画·小说·写真·AI·网站 品牌资料库</title>
+  <meta name="description" content="成人百科——面向成年用户的成人内容资料库。59 个品牌、216+ 作品：成人短剧、成人动漫、成人漫画、成人小说、成人写真、AI 成人平台与成人网站。查品牌、认入口、看核验。">
+  <meta name="keywords" content="成人百科,成人内容,成人短剧,成人动漫,成人网站,成人品牌,仅限成人">
+  <meta name="robots" content="index, follow">
+  <meta name="rating" content="adult">
+  <link rel="canonical" href="https://chengrenbaike.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="成人百科 · 仅限成人">
+  <meta property="og:description" content="成人内容品牌与作品资料库。短剧、动漫、漫画、小说、写真、AI、网站——一站查清。">
+  <meta property="og:url" content="https://chengrenbaike.com/">
+  <meta property="og:locale" content="zh_CN">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "成人百科",
+    "url": "https://chengrenbaike.com/",
+    "description": "面向成年用户的成人短剧、动漫、漫画、小说与网站品牌资料库",
+    "inLanguage": "zh-CN",
+    "audience": { "@type": "Audience", "suggestedMinAge": 18 }
+  }
+  </script>
+
+  <style>
+    :root {
+      --black: #000;
+      --near: #0a0a0a;
+      --panel: #121212;
+      --line: #2a2a2a;
+      --text: #f5f5f5;
+      --dim: #888;
+      --hot: #ff1a4a;
+      --hot-2: #ff4d6d;
+      --warn: #ffcc00;
+      --font: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font);
+      background: var(--black);
+      color: var(--text);
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+    a { color: var(--hot-2); text-decoration: none; }
+    a:hover { color: #ff8a9a; }
+
+    /* 18+ strip */
+    .age-strip {
+      background: var(--hot);
+      color: #fff;
+      text-align: center;
+      padding: 8px 12px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+    .age-strip span { opacity: 0.9; font-weight: 500; margin-left: 8px; letter-spacing: 0; }
+
+    .bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--line);
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .bar .brand {
+      font-weight: 800;
+      font-size: 1.1rem;
+      letter-spacing: 0.04em;
+      color: #fff;
+    }
+    .bar .brand b { color: var(--hot); }
+    .bar .enter {
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 8px 16px;
+      background: #fff;
+      color: #000;
+    }
+    .bar .enter:hover { background: var(--hot); color: #fff; }
+
+    /* Giant adult hero */
+    .blast {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 48px 20px 40px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 32px;
+      align-items: end;
+      border-bottom: 4px solid var(--hot);
+    }
+    .blast h1 {
+      font-size: clamp(2.4rem, 9vw, 4.5rem);
+      font-weight: 900;
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+    }
+    .blast h1 .line2 {
+      display: block;
+      color: var(--hot);
+    }
+    .blast .side {
+      text-align: right;
+      padding-bottom: 8px;
+    }
+    .blast .side .big {
+      font-size: 3rem;
+      font-weight: 900;
+      color: var(--warn);
+      line-height: 1;
+    }
+    .blast .side .lbl {
+      font-size: 0.75rem;
+      color: var(--dim);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
+    .blast-desc {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 20px 28px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px 32px;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--line);
+    }
+    .blast-desc p {
+      color: var(--dim);
+      font-size: 0.95rem;
+      max-width: 520px;
+    }
+    .blast-desc .actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+    .btn-hot { background: var(--hot); color: #fff; }
+    .btn-hot:hover { background: var(--hot-2); color: #fff; }
+    .btn-out { border: 1px solid var(--line); color: #fff; }
+    .btn-out:hover { border-color: var(--hot); color: var(--hot); }
+
+    /* Full-width adult category bands */
+    .bands { max-width: 1100px; margin: 0 auto; padding: 0 0 8px; }
+    .band {
+      display: grid;
+      grid-template-columns: 100px 1fr auto;
+      gap: 16px;
+      align-items: center;
+      padding: 22px 20px;
+      border-bottom: 1px solid var(--line);
+      transition: background 0.15s;
+    }
+    .band:hover { background: var(--panel); }
+    .band .mark {
+      font-size: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      color: var(--hot);
+    }
+    .band .mark small {
+      display: block;
+      font-size: 1.4rem;
+      letter-spacing: 0;
+      color: #fff;
+      font-weight: 900;
+      margin-top: 2px;
+    }
+    .band h2 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+    .band:hover h2 { color: var(--hot-2); }
+    .band p {
+      font-size: 0.85rem;
+      color: var(--dim);
+      max-width: 560px;
+    }
+    .band .count {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--warn);
+      white-space: nowrap;
+    }
+    .band .count b {
+      display: block;
+      font-size: 1.5rem;
+      color: #fff;
+      line-height: 1.1;
+    }
+
+    /* Adult keywords strip */
+    .keywords {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 20px;
+      border-bottom: 1px solid var(--line);
+    }
+    .keywords h3 {
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--dim);
+      margin-bottom: 12px;
+    }
+    .kw {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .kw a {
+      padding: 8px 14px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      color: #ddd;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .kw a:hover {
+      border-color: var(--hot);
+      color: var(--hot);
+    }
+
+    /* Hard notice */
+    .notice {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px 20px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 16px;
+      align-items: start;
+      border-bottom: 1px solid var(--line);
+    }
+    .notice .badge-18 {
+      width: 56px; height: 56px;
+      border: 3px solid var(--hot);
+      color: var(--hot);
+      font-weight: 900;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .notice h3 { font-size: 1rem; margin-bottom: 6px; }
+    .notice p { font-size: 0.88rem; color: var(--dim); }
+
+    .foot-cta {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .foot-cta h2 {
+      font-size: 1.5rem;
+      font-weight: 900;
+      margin-bottom: 8px;
+    }
+    .foot-cta p {
+      color: var(--dim);
+      margin-bottom: 18px;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 16px 20px 28px;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--dim);
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    footer a { color: var(--dim); }
+    footer a:hover { color: var(--hot-2); }
+    .flinks { margin: 8px 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 14px; }
+
+    @media (max-width: 700px) {
+      .blast { grid-template-columns: 1fr; }
+      .blast .side { text-align: left; }
+      .band { grid-template-columns: 72px 1fr; }
+      .band .count { grid-column: 2; }
+      .notice { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="age-strip">
+    18+ 仅限成人
+    <span>本站整理成人内容品牌与入口资料，未成年人请离开</span>
+  </div>
+
+  <div class="bar">
+    <a href="https://chengrenbaike.com/" class="brand" rel="noopener"><b>成人</b>百科</a>
+    <a href="https://chengrenbaike.com/" class="enter" rel="noopener">进入官网</a>
+  </div>
+
+  <section class="blast">
+    <h1>
+      成人内容
+      <span class="line2">资料库</span>
+    </h1>
+    <div class="side">
+      <div class="big">18+</div>
+      <div class="lbl">Adults only</div>
+    </div>
+  </section>
+
+  <div class="blast-desc">
+    <p>
+      成人百科面向<strong style="color:#ccc">成年用户</strong>，把成人短剧、成人动漫、成人漫画、成人小说、成人写真、AI 成人平台与成人网站的品牌、作品与入口线索集中整理。不提供播放与下载，只做可检索的资料索引。
+    </p>
+    <div class="actions">
+      <a class="btn btn-hot" href="https://chengrenbaike.com/" rel="noopener">打开成人百科</a>
+      <a class="btn btn-out" href="https://chengrenbaike.com/pinpai/" rel="noopener">59 个成人品牌</a>
+    </div>
+  </div>
+
+  <div class="bands">
+    <a class="band" href="https://chengrenbaike.com/duanju/" rel="noopener">
+      <div class="mark">ADULT<small>短剧</small></div>
+      <div>
+        <h2>成人短剧</h2>
+        <p>真人短剧、AI 短剧、漫剧。黄果、蜜桃、拾光、星河、子夜剧场等热门成人短剧品牌。</p>
+      </div>
+      <div class="count"><b>14</b>品牌</div>
+    </a>
+    <a class="band" href="https://chengrenbaike.com/dongman/" rel="noopener">
+      <div class="mark">ADULT<small>动漫</small></div>
+      <div>
+        <h2>成人动漫</h2>
+        <p>成人动画与漫剧平台：樱花、夜漫、幻月、苍蓝、星轨等。</p>
+      </div>
+      <div class="count"><b>10</b>品牌</div>
+    </a>
+    <a class="band" href="https://chengrenbaike.com/manhua/" rel="noopener">
+      <div class="mark">ADULT<small>漫画</small></div>
+      <div>
+        <h2>成人漫画</h2>
+        <p>星图、墨鱼、青柠、拾页、白夜、横竖等成人漫画平台。</p>
+      </div>
+      <div class="count"><b>6</b>品牌</div>
+    </a>
+    <a class="band" href="https://chengrenbaike.com/xiaoshuo/" rel="noopener">
+      <div class="mark">ADULT<small>小说</small></div>
+      <div>
+        <h2>成人小说</h2>
+        <p>暗夜、夜莺、墨盒文学、长夜书坊等成人向阅读平台。</p>
+      </div>
+      <div class="count"><b>7</b>品牌</div>
+    </a>
+    <a class="band" href="https://chengrenbaike.com/xiezhen/" rel="noopener">
+      <div class="mark">ADULT<small>写真</small></div>
+      <div>
+        <h2>成人写真</h2>
+        <p>月光、晨雾、琥珀、胶片社、微光、素白等写真与图片品牌。</p>
+      </div>
+      <div class="count"><b>6</b>品牌</div>
+    </a>
+    <a class="band" href="https://chengrenbaike.com/ai/" rel="noopener">
+      <div class="mark">ADULT<small>AI</small></div>
+      <div>
+        <h2>AI 成人平台</h2>
+        <p>蓝果、MUSE、极光、白泽、灵犀、流明等 AI 短剧 / 图像 / 角色平台。</p>
+      </div>
+      <div class="count"><b>11+</b>品牌</div>
+    </a>
+    <a class="band" href="https://chengrenbaike.com/wangzhan/" rel="noopener">
+      <div class="mark">ADULT<small>网站</small></div>
+      <div>
+        <h2>成人网站</h2>
+        <p>潮汐、蓝鲸、灯塔、群岛、夜航等成人社区与综合平台。</p>
+      </div>
+      <div class="count"><b>5</b>品牌</div>
+    </a>
+  </div>
+
+  <section class="keywords">
+    <h3>成人内容入口</h3>
+    <div class="kw">
+      <a href="https://chengrenbaike.com/pinpai/" rel="noopener">全部成人品牌</a>
+      <a href="https://chengrenbaike.com/duanju/" rel="noopener">成人短剧</a>
+      <a href="https://chengrenbaike.com/dongman/" rel="noopener">成人动漫</a>
+      <a href="https://chengrenbaike.com/manhua/" rel="noopener">成人漫画</a>
+      <a href="https://chengrenbaike.com/xiezhen/" rel="noopener">成人写真</a>
+      <a href="https://chengrenbaike.com/ai/" rel="noopener">AI 成人</a>
+      <a href="https://chengrenbaike.com/zhuanti/" rel="noopener">成人专题</a>
+      <a href="https://chengrenbaike.com/zhuanlan/guanwang-zhenjia-bianbie/" rel="noopener">辨别官方入口</a>
+    </div>
+  </section>
+
+  <section class="notice">
+    <div class="badge-18">18+</div>
+    <div>
+      <h3>使用前请确认你已成年</h3>
+      <p>
+        成人百科收录的是成人向品牌与作品资料。页面含成人内容相关描述与分类导航。
+        我们不提供资源播放或下载，仅整理品牌编号、形态说明与入口核验线索。请遵守你所在地区的法律法规。
+      </p>
+    </div>
+  </section>
+
+  <section class="foot-cta">
+    <h2>成人世界，一站查资料</h2>
+    <p>59 品牌 · 216+ 作品 · 持续核验更新</p>
+    <a class="btn btn-hot" href="https://chengrenbaike.com/" rel="noopener">进入成人百科官网</a>
+  </section>
+
+  <footer>
+    <div>© 成人百科 · 仅限成人引流页</div>
+    <div class="flinks">
+      <a href="https://chengrenbaike.com/duanju/" rel="noopener">短剧</a>
+      <a href="https://chengrenbaike.com/dongman/" rel="noopener">动漫</a>
+      <a href="https://chengrenbaike.com/xiezhen/" rel="noopener">写真</a>
+      <a href="https://chengrenbaike.com/ai/" rel="noopener">AI</a>
+      <a href="https://chengrenbaike.com/pinpai/" rel="noopener">品牌</a>
+    </div>
+    <p>不提供播放、阅读或下载。未成年人请勿浏览。</p>
+  </footer>
+</body>
+</html>
